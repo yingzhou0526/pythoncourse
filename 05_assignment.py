@@ -24,6 +24,7 @@ Hint: The HTML in main_page needs a modification in the text input
 '''
 
 from flask import Flask, request
+import re
 
 main_page = '''
 <html>
