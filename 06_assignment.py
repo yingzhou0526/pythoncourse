@@ -107,7 +107,7 @@ def exercise08():
     - row_count - Total # of rows
     - avg_sq_ft - Average square feet across all transactions
     - df_zip_95670 - DataFrame containing all transactions in zip code 95670
-    - zip_not_95610 - DataFrame containing all transactions not in zip code 95610
+    - df_zip_not_95610 - DataFrame containing all transactions not in zip code 95610
     '''
 
     # ------ Place code below here \/ \/ \/ ------
@@ -153,7 +153,7 @@ def exercise10(n):
 def exercise11(n):
     '''
     Create a single dimension array, array_1d, of size n containing integers 0 to n-1
-    Reshape the array, array_reshaped, into n/3 columns and 3 rows
+    Reshap the array. The reshape the array, array_reshaped, should be n/3 columns and 3 rows
     '''
     # ------ Place code below here \/ \/ \/ ------
 
@@ -173,7 +173,7 @@ def exercise12(n):
 
     # ------ Place code above here /\ /\ /\ ------ 
 
-    return checker_matrix
+    return checkerboard_matrix
 
 def exercise13(n):
     '''
@@ -190,7 +190,7 @@ def exercise13(n):
 
 def exercise14(words):
     '''
-    Exercise14() receives a Python list of words. Create and return a pandas DataFrame that tabulates the length of each word i.e.
+    Exercise14() receives a Python list of words. Create and return a pandas DataFrame or Series that tabulates the length of each word i.e.
     a list of the words hello, car, bye would produce a DataFrame with 3 rows and a column with the numbers 5,3,3
     Using Series.map() and lambdas may help.
     '''
