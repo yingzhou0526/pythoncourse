@@ -4,7 +4,7 @@ Assignment #6
 1. Add / modify code ONLY between the marked areas (i.e. "Place code below") 
 2. Run the associated test harness for a basic check on completeness. A successful run of the test cases does not guarantee accuracy or fulfillment of the requirements. Please do not submit your work if test cases fail.
 3. To run unit tests simply use the below command after filling in all of the code:
-    python 01_assignment.py
+    python 06_assignment.py
   
 4. Unless explicitly stated, please do not import any additional libraries but feel free to use built-in Python packages
 5. Submissions must be a Python file and not a notebook file (i.e *.ipynb)
@@ -177,7 +177,8 @@ def exercise12(n):
 
 def exercise13(n):
     '''
-    Create a pandas Series, s, with n random integers between 0 and n, for n days starting from 1/1/2010 and plot the cumulative sum on a  chart. The data range should be an index.
+    Create a pandas Series, s, with n random integers between 0 and n, for n days starting from 1/1/2010 and plot the
+    cumulative sum on a  chart. The data range should be an index.
     
     '''
     # ------ Place code below here \/ \/ \/ ------
@@ -190,8 +191,8 @@ def exercise13(n):
 
 def exercise14(words):
     '''
-    Exercise14() receives a Python list of words. Create and return a pandas DataFrame or Series that tabulates the length of each word i.e.
-    a list of the words hello, car, bye would produce a DataFrame with 3 rows and a column with the numbers 5,3,3
+    Exercise14() receives a Python list of words. Create and return a pandas DataFrame or Series that tabulates the length of 
+    each word i.e. a list of the words hello, car, bye would produce a DataFrame with 3 rows and a column with the numbers 5,3,3
     Using Series.map() and lambdas may help.
     '''
     # ------ Place code below here \/ \/ \/ ------
@@ -204,7 +205,8 @@ def exercise14(words):
 
 def exercise15():
     '''
-    Use the real estate transaction DataFrame from Exercise 8 and extracts into a new DataFrame every 5th row using iloc and just the street address and zip code columns
+    Use the real estate transaction DataFrame from Exercise 8 and extracts into a new DataFrame every 5th row using iloc 
+    and just the street address and zip code columns. This can be done with one line of code.
     '''
     # ------ Place code below here \/ \/ \/ ------
 
