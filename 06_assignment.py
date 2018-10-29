@@ -164,8 +164,8 @@ def exercise11(n):
 
 def exercise12(n):
     '''
-    Create a cherkboard NumPy matrix of size 2n x 2n using one line of code
-    A checkboard matrix is a matrix with alternating 1s and 0s across rows and columns with the top left value equal to 1
+    Create a checkerboard NumPy matrix of size 2n x 2n using one line of code
+    A checkerboard matrix is a matrix with alternating 1s and 0s across rows and columns with the top left value equal to 1
     '''
     # ------ Place code below here \/ \/ \/ ------
 
@@ -177,7 +177,7 @@ def exercise12(n):
 
 def exercise13(n):
     '''
-    Create a pandas Series, s, with n random integers between 0 and n, for n days starting from 1/1/2010 and plot the cumultive sum on a  chart. The data range should be an index.
+    Create a pandas Series, s, with n random integers between 0 and n, for n days starting from 1/1/2010 and plot the cumulative sum on a  chart. The data range should be an index.
     
     '''
     # ------ Place code below here \/ \/ \/ ------
@@ -204,7 +204,7 @@ def exercise14(words):
 
 def exercise15():
     '''
-    Use the real estate transaction DataFrame from Exercise 8 and extracts into a new DataFrame every 5th row using iloc and just the address and zip code columns
+    Use the real estate transaction DataFrame from Exercise 8 and extracts into a new DataFrame every 5th row using iloc and just the street address and zip code columns
     '''
     # ------ Place code below here \/ \/ \/ ------
 
