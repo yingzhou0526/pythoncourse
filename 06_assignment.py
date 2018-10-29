@@ -152,7 +152,7 @@ def exercise10(n):
 
 def exercise11(n):
     '''
-    Create a single dimension array, array_1d, of size n containing integers 0 to n-1
+    Using NumPy, create a single dimension array, array_1d, of size n containing integers 0 to n-1
     Reshape the array. The reshaped array, array_reshaped, should be n/3 columns and 3 rows
     '''
     # ------ Place code below here \/ \/ \/ ------
