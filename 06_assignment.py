@@ -92,7 +92,7 @@ def exercise06(n):
 
 def exercise07(sd,m,s):
     # The function exercise07() receives integers sd, m, s which are standard deviation, mean and size respectively. 
-    # Return an ndarray filled random with s numbers conforming to a normal distribution of standard deviation = sd and mean = m
+    # Return an ndarray filled with s random numbers conforming to a normal distribution of standard deviation = sd and mean = m
 
     # ------ Place code below here \/ \/ \/ ------
 
@@ -153,7 +153,7 @@ def exercise10(n):
 def exercise11(n):
     '''
     Create a single dimension array, array_1d, of size n containing integers 0 to n-1
-    Reshap the array. The reshape the array, array_reshaped, should be n/3 columns and 3 rows
+    Reshape the array. The reshaped array, array_reshaped, should be n/3 columns and 3 rows
     '''
     # ------ Place code below here \/ \/ \/ ------
 
@@ -205,7 +205,7 @@ def exercise14(words):
 
 def exercise15():
     '''
-    Use the real estate transaction DataFrame from Exercise 8 and extracts into a new DataFrame every 5th row using iloc 
+    Use the real estate transaction DataFrame from Exercise 8 and extract into a new DataFrame every 5th row using iloc 
     and just the street address and zip code columns. This can be done with one line of code.
     '''
     # ------ Place code below here \/ \/ \/ ------
