@@ -54,7 +54,7 @@ def exercise02(a):
     return array
 
 def exercise03(a):
-    # The function exercise03() receives an ndarray of integers. Return the sum of those integers.
+    # The function exercise03() receives an ndarray of integers. Return the sum of those integers using NumPy.
 
     # ------ Place code below here \/ \/ \/ ------
 
@@ -63,7 +63,7 @@ def exercise03(a):
     return sum
 
 def exercise04(a):
-    # The function exercise04() receives an ndarray matrix (2D) of integers. Return the sum of the 2nd column only.
+    # The function exercise04() receives an ndarray matrix (2D) of integers. Return the sum of the 2nd column using NumPy.
 
     # ------ Place code below here \/ \/ \/ ------
 
