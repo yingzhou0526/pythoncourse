@@ -127,7 +127,9 @@ def exercise09():
 
     - Drop the disclaimer column
     - Remove the bottom two rows
-    - Plot a price timeseries and publish it to Plotly using the Plotly API and set the URL to the chart to the plotly_url variable
+    - Plot a price timeseries and publish it to Plotly using the Plotly API and set the URL to the chart to the plotly_url variable.
+    Publication to Plotly will occur programmtically via plotly API. You will need to import the library and create an API key from
+    the plotly dashboard.
     - Print the head
     - Print the tail
 
