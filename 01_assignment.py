@@ -32,7 +32,7 @@ def exercise01():
     # Create a variable x and set it to 5.
 
     # ------ Place code below here \/ \/ \/ ------
-
+    x =5
     # ------ Place code above here /\ /\ /\ ------
 
     return x
