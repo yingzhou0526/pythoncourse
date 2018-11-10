@@ -42,7 +42,7 @@ def exercise02():
     # Create a string variable called name and set it to your first name.
 
     # ------ Place code below here \/ \/ \/ ------
-
+    name  = 'ying'
     # ------ Place code above here /\ /\ /\ ------
 
     return name
